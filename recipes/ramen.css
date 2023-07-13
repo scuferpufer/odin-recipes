@@ -1,0 +1,50 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: rgb(205, 212, 182);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(83, 95, 99);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ h2 {
+  text-align: center;
+ }
+
+ p {
+  text-align: center;
+ }
+  
+ h3 {
+  text-align: center;
+ } 
+
+ #steps {
+  text-align: center;
+ }
+ 
+ .repo, .repa {
+  list-style-position: inside;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+ }
+
+ 
+ 
+
+
+ 
+
+
+
