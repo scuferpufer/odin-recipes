@@ -6,9 +6,10 @@ body {
   background-color: rgb(205, 212, 182);
 }
 
-h1 {
+h1,
+h2,
+h3 {
   text-align: center;
-  color: rgb(15, 168, 124);
 }
 
 img {
@@ -18,28 +19,49 @@ img {
   border-radius: 20px;
 }
 
-h2 {
-  text-align: center;
-}
-
 p {
+  font-size: 20px;
   text-align: center;
-  font-weight: bold;
+  font-weight: bolder;
+  border: solid 5px black;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#step {
+  font-size: 30px;
+  margin: auto;
   text-decoration-line: underline;
-}
-
-h3 {
-  text-align: center;
-}
-
-#steps {
-  text-align: center;
 }
 
 .repo,
 .repa {
   list-style-position: inside;
-  text-align: center;
+  text-align: left;
   font-size: 20px;
   font-weight: bold;
+}
+
+.ingredient {
+  list-style-position: inside;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  border: solid 5px black;
+  display: inline-block;
+  margin-left: 55px;
+  padding: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ingredient:hover {
+  background-color: rgb(22, 164, 235);
+  color: rgb(0, 0, 0);
+}
+
+.ingredient:active {
+  background-color: rgb(235, 22, 22);
+  color: rgb(0, 0, 0);
 }
