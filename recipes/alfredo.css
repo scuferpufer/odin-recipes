@@ -34,6 +34,12 @@ img {
 /* They are used to group elements together. */
 /* They are used to style a specific part of a text and should only be used when no other semantic HTML element is appropriate. */
 
+/* Inline Inline elements behave differently. 
+They don't appear on new lines; instead, 
+they all sit on the same line along with any adjacent (or wrapped) 
+text content as long as there is space for them to do so inside the width of the parent block level element.
+If there isn't space, then the overflowing content will move down to a new line */
+
 p {
   font-size: 35px;
   font-weight: 700;
