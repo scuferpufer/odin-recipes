@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #b21935;
+  background-color: #2eaa95;
 }
 
 h1,
@@ -11,7 +11,7 @@ h2,
 h3 {
   text-align: center;
   font-size: 50px;
-  color: #a57e29;
+  color: #8942aa;
   text-decoration: underline;
 }
 
@@ -23,6 +23,20 @@ img {
   border-radius: 10px;
 }
 
+.click {
+  text-align: center;
+  font-size: 30px;
+  color: #8942aa;
+  text-decoration: underline;
+  border: solid 2px #8942aa;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.click:hover {
+  color: #2556af;
+  cursor: pointer;
+}
 /* divs and spans give no particular meaning to their content. They are just generic boxes that can contain anything. */
 /* <a> is a perfect example of an inline element. */
 /* Don't put extra padding or margin on inline elemets. */
@@ -44,9 +58,26 @@ p {
   font-size: 35px;
   font-weight: 700;
   text-align: center;
-  border: solid 10px #a57e29;
+  border: solid 5px #2963a5;
   padding: 10px;
   border-radius: 10px;
+  transition: 0.4s;
+  display: inline-flexbox;
+  opacity: 0.2;
+}
+
+p:hover {
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 40px;
+  opacity: 1;
+  transform: skewY(-5deg);
+}
+
+p:active {
+  background-color: #2963a5;
+  border: solid 5px #ffffff;
+  transform: skewY(5deg);
 }
 
 .food-list,
