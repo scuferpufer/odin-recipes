@@ -37,22 +37,6 @@ img {
   color: #2556af;
   cursor: pointer;
 }
-/* divs and spans give no particular meaning to their content. They are just generic boxes that can contain anything. */
-/* <a> is a perfect example of an inline element. */
-/* Don't put extra padding or margin on inline elemets. */
-
-/* Div are block level elements by default. */
-/* They are used to group elements together. */
-
-/* Spans are inline elements by default. */
-/* They are used to group elements together. */
-/* They are used to style a specific part of a text and should only be used when no other semantic HTML element is appropriate. */
-
-/* Inline Inline elements behave differently. 
-They don't appear on new lines; instead, 
-they all sit on the same line along with any adjacent (or wrapped) 
-text content as long as there is space for them to do so inside the width of the parent block level element.
-If there isn't space, then the overflowing content will move down to a new line */
 
 p {
   font-size: 35px;
