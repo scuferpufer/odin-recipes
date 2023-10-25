@@ -99,3 +99,6 @@ List that are inline elements by default:
 <time>
 <tt>
 <var>
+
+/*Flexbox is a layout mode that arranges elements in a predictable way for different screen sizes and browsers. */
+/*Flex in shorthand is flex-grow, flex-shrink, and flex-basis. */
