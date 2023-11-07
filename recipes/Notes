@@ -22,7 +22,7 @@ If there isn't space, then the overflowing content will move down to a new line 
 /*A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element*/
 /*A block-level element always takes up the full width available (stretches out to the left and right as far as it can).*/
 
-The <div> element is often used as a container for other HTML elements.
+The <div> element is often used as a block container for other HTML elements.
 The <div> element has no required attributes, but style, class and id are common.
 
 The <span> element is an inline container used to mark up a part of a text, or a part of a document.

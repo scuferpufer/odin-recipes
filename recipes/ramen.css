@@ -1,22 +1,36 @@
 * {
   font-family: "Lato", sans-serif;
+  box-sizing: border-box;
 }
 
-body {
-  background-color: rgb(205, 212, 182);
+.head {
+  text-transform: uppercase;
+}
+
+html {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(180, 187, 51),
+    rgb(255, 89, 0)
+  );
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.clm {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
 
 h1,
 h2,
 h3 {
   text-align: center;
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
 }
 
 p {
